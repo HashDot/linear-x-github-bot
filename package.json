@@ -1,0 +1,19 @@
+{
+  "name": "linear-bot",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch run index.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@linear/sdk": "^8.0.0",
+    "elysia": "^0.7.13",
+    "octokit": "^3.1.0"
+  }
+}
